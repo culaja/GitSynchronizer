@@ -32,20 +32,6 @@ public class Commit
     public List<object> modified { get; set; }
 }
 
-public class Author2
-{
-    public string name { get; set; }
-    public string email { get; set; }
-    public string username { get; set; }
-}
-
-public class Committer2
-{
-    public string name { get; set; }
-    public string email { get; set; }
-    public string username { get; set; }
-}
-
 public class HeadCommit
 {
     public string id { get; set; }
@@ -54,8 +40,8 @@ public class HeadCommit
     public string message { get; set; }
     public DateTime timestamp { get; set; }
     public string url { get; set; }
-    public Author2 author { get; set; }
-    public Committer2 committer { get; set; }
+    public Author author { get; set; }
+    public Committer committer { get; set; }
     public List<string> added { get; set; }
     public List<object> removed { get; set; }
     public List<object> modified { get; set; }
